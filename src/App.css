@@ -1,28 +1,146 @@
-.App {
+body {
+  font-family: 'Tajawal', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+.wrapper {
+  width: 90%;
+  max-width: 900px;
+  margin:auto;
+  padding: 35px;
+  border: 1px solid #333;
+  min-height: 400px;
+  margin-top: 5%;
+}
+.dashboard {
+  padding: 0px;
+  border: 1px solid #333;
+  min-height: 400px;
+  margin-top: 5%;
+}
+.dashboardWrap {
+  padding: 25px;
+}
+.intro-p {
+  font-size: 1.1em;
+  line-height: 1.3em;
+  padding-top: 10px;
+}
+.form-header {
+  margin-bottom: 20px !important;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+}
+hr {
+  border: 1px solid #333;
+  margin-bottom: 30px;
+}
+.dashboard h1 {
+  width: 100%;
+  margin:0px;
+  padding: 20px;
+  padding-bottom: 10px;
+  background-color: #333;
+  color: #fff;
   text-align: center;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.dashboard h3 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #333;
 }
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.dashboard h4 {
+  font-size: 1.3em;
+  line-height: 1em;
 }
-
-.App-title {
+.dashboard p {
+  font-size: 1.2em;
+  line-height: 1em;
+  padding-top: 10px;
+}
+.wrapper h2 {
+  line-height: 1em;
+  font-size: 1.4em;
+  border-bottom: 1px solid #333;
+  padding-bottom: 10px;
+  margin-top: 0px;
+}
+.wrapper h2.formH2 {
+  margin-bottom: 20px;
+} 
+input {
+  font-size: 1.2em !important;
+  padding-top:13px !important;
+  min-height: 40px !important;
+  border-radius: 0px !important;
+  border-color: #333 !important;
+}
+.btn {
+  background-image: none;
+  background-color: transparent;
+  border-radius: 0px;
+  color: #5E5E5E;
+  font-size: 1.2em;
+  padding-top:13px;
+  font-family: 'Tajawal', sans-serif;
+  font-weight: 300;
+  margin-bottom: 40px;
+  margin-right: 15px;
+  min-width: 40%;
+}
+.consContainer input {
+  width: 90%;
+  min-width: 50%;
+}
+.consContainer span {
+  float: left;
+  font-size: 2em;
+  min-height: 40px;
+  padding-top: 5px;
+  margin-right: 5px;
+  font-weight: 200;
+}
+.consContainer p {
+  clear: both;
+}
+.dashboardWrap {
+  padding:35px;
+}
+.dashboardWrap .form-group {
+  width: 100% !important;
+  clear:both
+}
+.dashboardWrap input {
+  width: 30%;
+  float: left;
+}
+.dashboardWrap span {
+  float: left;
+  font-size: 2em;
+  min-height: 40px;
+  padding-top: 5px;
+  margin-left: 15px;
+  font-weight: 200;
+}
+span.setGrade {
+  font-size: 1em;
+  line-height: 1em;
+  padding-top: 10px;
+  margin-left: 0px;
+  float: none;
+}
+.dashboardWrap p {
+  clear: both;
   font-size: 1.5em;
+  line-height: 1em;
 }
-
-.App-intro {
-  font-size: large;
+input.grounded {
+  width: 70%;
+  margin-left: 20px;
 }
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.clear {
+  clear:both;
+  margin-bottom: 15px;
 }
