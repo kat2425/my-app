@@ -17,6 +17,7 @@ class App extends Component {
                 <Input />
                 <Input />
                 <Input />
+                <p>Add all of your child's classes (click "Add Class"), then click "Create Child".</p>
                 <Button />
                 <Button />
               </form>
